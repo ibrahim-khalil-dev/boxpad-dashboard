@@ -24,6 +24,7 @@ export default function App() {
 
 	const [dataReady, setDataReady] = useState(false);
 
+  
 	// Fetch all data in background while honeycomb shows
 
 	useEffect(() => {
