@@ -1,14 +1,4 @@
-// ─── Dashboard ────────────────────────────────────────────────────────────────
-//
-// Props:
-//   loadedSections — object tracking which honeycomb sections have loaded
-//   e.g. { inbox: true, contacts: false, ai: true, ... }
-//
-// Usage:
-//   import Dashboard from "./Dashboard";
-//   <Dashboard loadedSections={loadedSections} />
-
-const TABS = [
+ const TABS = [
   {
     id: "inbox",
     label: "Inbox",
@@ -67,8 +57,7 @@ function Skeleton() {
     </>
   );
 }
-
-// ─── Column: Inbox sidebar ────────────────────────────────────────────────────
+ 
 
 function InboxColumn({ loaded }) {
   return (
@@ -107,8 +96,7 @@ function InboxColumn({ loaded }) {
     </div>
   );
 }
-
-// ─── Column: Chat list ────────────────────────────────────────────────────────
+ 
 
 function ChatListColumn({ loaded }) {
   const chats = [
