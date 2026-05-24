@@ -1,7 +1,7 @@
 import { CONTACT } from "../lib/mockData";
 import { X, Layout, ChevronDown, Plus } from "lucide-react";
 
-export function DetailsPanel({ conversation }) {
+export function DetailsPanel() {
 	return (
 		<div className='hidden lg:flex lg:w-72 bg-white border-l border-gray-200 flex-col overflow-hidden'>
 			{/* Header */}
